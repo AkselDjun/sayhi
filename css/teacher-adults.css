@@ -1,0 +1,336 @@
+
+body {
+    background: #e5e5e5;
+    padding: 0;
+    margin: 0;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+img {
+    width: 55%;
+    height: 55%;
+}
+
+div > p {
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 85px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+div > img {
+    transition: 0.3s ease-in-out;
+}
+
+div > img:hover {
+    transform: scale(1.05);
+}
+
+
+
+header {
+    float: right;
+}
+
+.inner-width {
+    float: right;
+    width: 987px;
+    height: 64px;
+    background: rgba(46, 67, 196, 0.12);
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    margin-top: 25px;
+    margin-right: 140px;
+    position: relative;
+    
+}
+
+.logo{
+  float: left;
+  margin-left: 150px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.logo img{
+  height: 125px;
+  width: 236px;
+}
+
+.navigation-menu{
+    display: inline-block;
+    margin: 14.5px;
+}
+
+.navigation-menu a{
+    position: relative;
+    padding-top: 22px;
+    padding-bottom: 18px;
+    padding-left: 27px;
+    padding-right: 23px;
+    text-decoration: none;
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.15em;
+    color: #000000;
+}
+
+.a-special {
+    position: relative;
+    background: #F7DE1F;
+    box-shadow: 10px 3px 6px rgba(212, 188, 6, 0.541);
+    border-radius: 40px;
+}
+
+
+
+.header-text {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    margin-top: 230px;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 147px;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+
+
+
+.kate {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 200px;
+}
+
+.kate > p {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+.alex {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 200px;
+}
+
+.alex > p {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+.denis {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 1200px;
+    margin-left: 200px;
+}
+
+.denis > p {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+.kseniya {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 1550px;
+    margin-left: 200px;
+}
+
+.kseniya > p {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+.oleg {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1100px;
+}
+
+.oleg > p {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+.sveta {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 1100px;
+}
+
+.sveta > p {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+
+.vika {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 1200px;
+    margin-left: 1100px;
+}
+
+.vika > p {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+
+
+.prob-les {
+    width: 900px;
+    height: 350px;
+    position: absolute;
+    text-align: center;
+    float: left;
+    margin-top: 1950px;
+    margin-left: 26.9%;
+    background: rgba(29, 41, 115, 0.85);
+    border-radius: 40px;
+}
+
+.prob-les > p {
+    width: 800px;
+    margin-top: 30px;
+    margin-left: 6%;
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: 0.08em;
+    color: #F7DE1F;
+}
+
+.prob-les > button {
+    width: 60%;
+    height: 70px;
+    margin-top: 5%;
+    margin-left: 0%;
+    background: #F7DE1F;
+    border-radius: 40px;
+}
+
+.prob-les > button > p {
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #1D2973;
+    margin-top: 3%;
+}
+
+
+
+footer {
+    margin-top: 2300px;
+    width: 100%;
+    height: 300px;
+    float: left;
+    background: rgba(247, 222, 31, 0.6);
+    box-shadow: 2px -2px 4px rgba(189, 169, 14, 0.25);
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+    min-height: 100%;
+}
+
+.logo-fut {
+    height: 125px;
+    width: 236px;
+    padding-left: 150px;
+    padding-top: 90px;
+}
+
+footer > ul {
+    float: right;
+    list-style: none;
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.08em;
+}
+
+footer > ul > li {
+    padding-top: 35px;
+    padding-right: 150px;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+}
+
+.footer-social-icons {
+    position: absolute;
+    padding-left: 390px;
+    padding-top: 38px;
+}
+
+.footer-social-icons > ul {
+    list-style: none;
+}
+
+.footer-social-icons > ul > li > a > img {
+    width: 80%;
+    height: 80%;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-social-icons > ul > li > a > img:hover {
+    transform: scale(1.15);
+}
+
+.social-list:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 4px; 
+	background-color: #000000; 
+	content: "";
+	transition: width 0.4s ease-out; 
+}
+
+.social-list:hover:after {
+	width: 100%;
+}
