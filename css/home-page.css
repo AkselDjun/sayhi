@@ -14,9 +14,7 @@ button:focus {
 
 
 header {
-    position: relative;
     float: right;
-    margin-right: 150px;
 }
 
 .inner-width {
@@ -27,6 +25,9 @@ header {
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.05);
     border-radius: 40px;
     margin-top: 25px;
+    margin-right: 140px;
+    position: relative;
+    
 }
 
 .logo{
@@ -43,11 +44,11 @@ header {
 
 .navigation-menu{
     display: inline-block;
-    margin: 14px;
-    text-align: center;
+    margin: 14.5px;
 }
 
 .navigation-menu a{
+    position: relative;
     padding-top: 22px;
     padding-bottom: 18px;
     padding-left: 27px;
@@ -62,6 +63,7 @@ header {
 }
 
 .a-special {
+    position: relative;
     background: #F7DE1F;
     box-shadow: 10px 3px 6px rgba(212, 188, 6, 0.541);
     border-radius: 40px;
@@ -70,13 +72,13 @@ header {
 
 
 .head_text {
-    width: 1200px;
+    width: 1100px;
     height: 100px;
-    padding-top: 530px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding-top: 230px;
+    margin-left: 21.5%;
+    position: inherit;
+    top: -50%;
+    
 
     font-family: "Anton", sans-serif;
     font-style: normal;
@@ -91,7 +93,7 @@ header {
 
 
 .blocks-course-level  {
-    padding-top: 0px;
+    padding-top: 300px;
     position: relative;
     margin-left: 16.5%;
 }
@@ -184,17 +186,12 @@ header {
     height: 500px;
 }
 
-.img-course-cor > img {
-  
-}
-
 .head-course-cor-details {
     width: 508px;
     height: 50px;
     position: relative;
-    margin-top: 680px;
+    margin-top: 710px;
     padding-left: 150px;
-    /* float: left; */
 }
 
 .head-course-cor-details > p {
@@ -253,7 +250,7 @@ header {
 
 
 .div-btn-other-course {
-    margin-top: 140px;
+    margin-top: 100px;
     margin-left: 40%;
 }
 
@@ -276,12 +273,18 @@ header {
     margin-left: 8px;
 }
 
+.div-btn-other-course > button > p > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
 
 .body-course-cor {
     position: relative;
     width: 600px;
     height: 108px;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 150px;
     float: left;
 }
@@ -297,20 +300,279 @@ header {
 }
 
 .body-img-statue-of-liberty {
+    position: absolute;
+    float: left;
     margin-left: 150px;
+    margin-top: 350px;
+}
+
+.body-p-add {
+    width: 410px;
+    height: 180px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 670px;
+}
+
+.body-p-add > p {
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.08em;
+}
+
+.prob-lesson-div-body {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background: rgba(29, 41, 115, 0.85);
+    border-radius: 40px;
+    margin-left: 72%;
+    margin-top: 53%;
+}
+
+.prob-lesson-body {
+    padding-top: 12px;
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #F7DE1F;
+}
+
+.btn-prob-lesson-body {
+    background: #F7DE1F;
+    border-radius: 40px;
+    width: 70%;
+    height: 25%;
+    margin-top: 19%;
+    margin-left: 15%;
+}
+
+.p-prob-lesson-body {
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #000000;
 }
 
 
 
+.prob-lesson-div-body-speak {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background: rgba(29, 41, 115, 0.85);
+    border-radius: 40px;
+    margin-left: 340px;
+    margin-top: 26%;
+}
+
+.prob-lesson-body-speak {
+    padding-top: 12px;
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #F7DE1F;
+}
+
+.btn-prob-lesson-body-speak {
+    background: #F7DE1F;
+    border-radius: 40px;
+    width: 70%;
+    height: 25%;
+    margin-top: 19%;
+    margin-left: 15%;
+}
+
+.p-prob-lesson-body-speak {
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.body-speak {
+    position: absolute;
+    width: 440px;
+    height: 180px;
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.08em;
+    margin-top: 200px;
+    margin-left: 450px; 
+}
+
+.body-img-speak {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 740px;
+}
+
+
+
+.block-course-children-adult {
+    margin-top: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 500px;
+    background: rgba(247, 222, 31, 0.6);
+    box-shadow: 3px 4px 4px rgba(189, 169, 14, 0.25);
+    border-radius: 40px;
+
+}
+
+.block-course-children-adult > p {
+    padding-top: 15px;
+    padding-left: 40px;
+    width: 50%;
+    font-family: 'Taviraj', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 94px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.block-course-adult {
+    float: left;
+    width: 450px;
+    height: 220px;
+    margin-left: 135px;
+    margin-top: -20px;
+    background: rgba(29, 41, 115, 0.85);
+    box-shadow: 3px 4px 4px rgba(23, 34, 99, 0.25);
+    border-radius: 40px;
+}
+
+.block-course-children {
+    float: right;
+    width: 450px;
+    height: 220px;
+    margin-right: 135px;
+    margin-top: -150px;
+    background: rgba(29, 41, 115, 0.85);
+    box-shadow: 3px 4px 4px rgba(23, 34, 99, 0.25);
+    border-radius: 40px;
+    z-index: 2;
+}
+
+.block-course-c {
+    font-family: 'Khula', sans-serif;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 67px;
+    letter-spacing: 0.08em;
+    color: #F7DE1F;
+}
+
+.block-course-a {
+    font-family: 'Khula', sans-serif;
+    margin-top: 5%;
+    margin-left: 19%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 67px;
+    letter-spacing: 0.08em;
+    color: #F7DE1F;
+}
+
+.btn-block-course {
+    width: 250px;
+    height: 65px;
+    margin-left: 22.5%;
+    margin-top: -2.5%;
+    background: #F7DE1F;
+    box-shadow: 3px 4px 4px rgba(189, 169, 14, 0.25);
+    border-radius: 40px;
+}
+
+.btn-block-course-p {
+    margin-top: 5%;
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+
+
+
+.footer-information {
+    width: 805px;
+    height: 520px;
+    background: rgba(29, 41, 115, 0.9);
+    box-shadow: 3px 4px 4px rgba(23, 34, 99, 0.25);
+    border-radius: 40px;
+    margin-top: 560px;
+    margin-right: 150px;
+    float: right;
+    z-index: 2;
+    position: relative;
+}
+
+.footer-information > div > ul > li {
+    list-style: none;
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.08em;
+    color: #F7DE1F;
+    margin-top: 22px;
+}
+
+.maps-footer {
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width: 700px;
+    height: 100px;
+    display: ;
+    z-index: 1;
+    margin-left: 150px;
+    margin-top: 150px;
+    position: relative;
+}
+
+
 
 footer {
-    margin-top: 3000px;
+    margin-top: 150px;
     width: 100%;
     height: 300px;
     float: left;
     background: rgba(247, 222, 31, 0.6);
     box-shadow: 2px -2px 4px rgba(189, 169, 14, 0.25);
     border-radius: 40px 40px 0px 0px;
+    position: relative;
 }
 
 .logo-fut {
@@ -339,6 +601,7 @@ footer > ul > li {
 footer > ul > li > a {
     text-decoration: none;
     color: #000000;
+    position: relative;
 }
 
 .footer-social-icons {
@@ -359,4 +622,19 @@ footer > ul > li > a {
 
 .footer-social-icons > ul > li > a > img:hover {
     transform: scale(1.15);
-}   
+}
+
+.social-list:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 4px; 
+	background-color: #000000; 
+	content: "";
+	transition: width 0.4s ease-out; 
+}
+
+.social-list:hover:after {
+	width: 100%;
+}
