@@ -11,28 +11,16 @@ button:focus {
     outline: none;
 }
 
-img {
-    width: 55%;
-    height: 55%;
+.kate-img > img {
+    width: 95%;
+    height: 95%;
 }
 
-div > p {
-    font-family: 'Khula', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 85px;
-    letter-spacing: 0.08em;
-    color: #000000;
+.photo > img {
+    width: 33.5%;
+    height: 33.5%;
 }
 
-div > a > img {
-    transition: 0.3s ease-in-out;
-}
-
-div > a > img:hover {
-    transform: scale(1.05);
-}
 
 
 
@@ -94,11 +82,15 @@ header {
 
 
 
-.header-text {
+ .header-text {
     position: absolute;
     width: 100%;
     height: 150px;
-    margin-top: 230px;
+    margin-top: 115px;
+    margin-left: 15.5%;
+}
+
+.header-text > p {
     font-family: "Anton", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -110,103 +102,108 @@ header {
 
 
 
-.kate {
+.kate-img {
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 18%;
+    
+} 
+
+
+.obs-course {
+    position: absolute;
     width: 500px;
-    height: 500px;
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 200px;
+    height: 100px;
+    margin-top: 20%;
+    margin-left: 51%;
 }
 
-.kate > p {
-    position: absolute;
-    margin-left: 350px;
-    margin-top: -200px;
-}
-
-.alex {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    margin-top: 850px;
-    margin-left: 200px;
-}
-
-.alex > p {
-    position: absolute;
-    margin-left: 350px;
-    margin-top: -200px;
-}
-
-.denis {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    margin-top: 1200px;
-    margin-left: 200px;
-}
-
-.denis > p {
-    position: absolute;
-    margin-left: 350px;
-    margin-top: -200px;
-}
-
-.kseniya {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    margin-top: 1550px;
-    margin-left: 200px;
-}
-
-.kseniya > p {
-    position: absolute;
-    margin-left: 350px;
-    margin-top: -200px;
-}
-
-.oleg {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 1100px;
-}
-
-.oleg > p {
-    position: absolute;
-    margin-left: 350px;
-    margin-top: -200px;
-}
-
-.sveta {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    margin-top: 850px;
-    margin-left: 1100px;
-}
-
-.sveta > p {
-    position: absolute;
-    margin-left: 350px;
-    margin-top: -200px;
+.obs-course > p {
+    font-family: 'Taviraj', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82px;
+    letter-spacing: 0.08em;
 }
 
 
-.vika {
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    margin-top: 1200px;
-    margin-left: 1100px;
+
+.list-course {
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 51%;
 }
 
-.vika > p {
+.list-course > ul > li {
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.08em;
+}
+
+
+
+.secti {
+    width: 1100px;
+    height: 400px;
     position: absolute;
-    margin-left: 350px;
-    margin-top: -200px;
+    margin-left: 18%;
+    margin-top: 50%;
+}
+
+.secti > section {
+    text-align: start;
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.08em;
+}
+
+
+
+.other-teach {
+    width: 1100px;
+    height: 400px;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 70%;
+}
+
+.other-teach > section {
+    font-family: 'Taviraj', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82px;
+    letter-spacing: 0.08em;
+}
+
+
+.photo {
+    float: left;
+    margin-top: 76%;
+    margin-left: -2.4%;
+}
+
+.photo > img {
+    margin-right: 50px;
+}
+
+.photo > p {
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -6.5%;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.08em;
 }
 
 
@@ -217,7 +214,7 @@ header {
     position: absolute;
     text-align: center;
     float: left;
-    margin-top: 1950px;
+    margin-top: 1900px;
     margin-left: 26.9%;
     background: rgba(29, 41, 115, 0.85);
     border-radius: 40px;
@@ -260,7 +257,7 @@ header {
 
 
 footer {
-    margin-top: 2300px;
+    margin-top: 700px;
     width: 100%;
     height: 300px;
     float: left;
