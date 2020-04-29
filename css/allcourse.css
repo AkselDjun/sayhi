@@ -5,22 +5,12 @@ body {
     margin: 0;
 }
 
+
+
 button, 
 button:active, 
 button:focus {
     outline: none;
-}
-
-
-
-.kate-img > img {
-    width: 95%;
-    height: 95%;
-}
-
-.photo > img {
-    width: 33.5%;
-    height: 33.5%;
 }
 
 
@@ -75,179 +65,230 @@ header {
 }
 
 
-
- .header-text {
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    margin-top: 115px;
-    margin-left: 15.5%;
+.head_text {
+    float: right;
+    margin-right: 300px;
+    margin-top: 100px;
 }
 
-.header-text > p {
+.head_text > p {
     font-family: "Anton", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 100px;
-    line-height: 147px;
-    text-align: center;
-    letter-spacing: 0.08em;
+    font-size: 90px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
 }
 
-
-
-.kate-img {
-    position: absolute;
-    margin-top: 320px;
-    margin-left: 18%;
-    
-} 
-
-
-.obs-course {
-    position: absolute;
-    width: 500px;
-    height: 100px;
-    margin-top: 20%;
-    margin-left: 51%;
-}
-
-.obs-course > p {
-    font-family: 'Taviraj', serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 82px;
-    letter-spacing: 0.08em;
-}
-
-
-
-.list-course {
-        position: absolute;
-        margin-top: 30%;
-        margin-left: 51%;
-}
-
-.list-course > ul > li {
-    font-family: 'Khula', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 43px;
-    letter-spacing: 0.08em;
-}
-
-
-
-.secti {
-    width: 1100px;
-    height: 400px;
-    position: absolute;
-    margin-left: 18%;
-    margin-top: 50%;
-}
-
-.secti > section {
-    text-align: start;
-    font-family: 'Khula', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 43px;
-    letter-spacing: 0.08em;
-}
-
-
-
-.other-teach {
-    width: 1100px;
-    height: 400px;
-    position: absolute;
-    margin-left: 18%;
-    margin-top: 70%;
-}
-
-.other-teach > section {
-    font-family: 'Taviraj', serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 82px;
-    letter-spacing: 0.08em;
-}
-
-
-.photo {
+.bridge {
     float: left;
-    margin-top: 76%;
-    margin-left: -2.4%;
-}
-
-.photo > img {
-    margin-right: 50px;
-}
-
-.photo > p {
-    position: absolute;
-    margin-left: 210px;
-    margin-top: -6.5%;
-    font-family: "Anton", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 60px;
-    letter-spacing: 0.08em;
+    margin-left: 150px;
+    margin-top: 115px;
 }
 
 
 
-.prob-les {
-    width: 900px;
-    height: 350px;
-    position: absolute;
-    text-align: center;
-    float: left;
-    margin-top: 1900px;
-    margin-left: 26.9%;
+.prob-lesson-div {
+    float: right;
+    width: 220px;
+    height: 220px;
     background: rgba(29, 41, 115, 0.85);
     border-radius: 40px;
+    margin-right: 330px;
+    margin-top: 80px;
 }
 
-.prob-les > p {
-    width: 800px;
-    margin-top: 30px;
-    margin-left: 6%;
+.prob-lesson {
+    padding-top: 0px;
     font-family: 'Khula', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
-    line-height: 58px;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
     letter-spacing: 0.08em;
     color: #F7DE1F;
 }
 
-.prob-les > button {
-    width: 60%;
-    height: 70px;
-    margin-top: 5%;
-    margin-left: 0%;
+.btn-prob-lesson {
     background: #F7DE1F;
     border-radius: 40px;
+    width: 70%;
+    height: 25%;
+    margin-top: 10%;
+    margin-left: 17%;
 }
 
-.prob-les > button > p {
+.p-prob-lesson {
     font-family: 'Khula', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 15px;
+    line-height: 24px;
     text-align: center;
     letter-spacing: 0.08em;
-    color: #1D2973;
-    margin-top: 3%;
+    color: #000000;
 }
 
+
+
+
+.opis-text {
+    width: 550px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 275px;
+}
+
+.opis-text > p {
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.08em;
+}
+
+.bus {
+    float: right;
+    margin-right: 150px;
+    margin-top: 160px;
+}
+
+.opis-lesson-div {
+    float: left;
+    width: 220px;
+    height: 220px;
+    background: rgba(29, 41, 115, 0.85);
+    border-radius: 40px;
+    margin-left: 270px;
+    margin-top: 60px;
+}
+
+
+
+.add-text {
+    width: 700px;
+    position: absolute;
+    margin-left: 57.5%;
+    margin-top: 1970px;
+}
+
+.add-text > p {
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.08em;
+}
+
+.under {
+    float: left;
+    margin-left: 150px;
+    margin-top: 210px;
+}
+
+
+
+.foot-text {
+    width: 600px;
+    float: left;
+    margin-left: -840px;
+    margin-top: 1030px;
+}
+
+.foot-text > p {
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.08em;
+}
+
+.big-ben {
+    float: right;
+    margin-right: 150px;
+    margin-top: 950px;
+}
+
+.foot-lesson-div {
+    float: left;
+    width: 220px;
+    height: 220px;
+    background: rgba(29, 41, 115, 0.85);
+    border-radius: 40px;
+    margin-left: 500px;
+    margin-top: 460px;
+}
+
+
+
+.section-footer-teach {
+    float: left;
+    margin-top: 220px;
+    margin-left: 150px;
+}
+
+.section-footer-teach > section {
+    font-family: 'Taviraj', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 82px;
+    letter-spacing: 0.08em;
+}
+
+
+
+.foot-div-teach > div > img{
+    float: left;
+    margin-top: 400px;
+    margin-left: -700px;
+}
+
+.foot-div-teach > div > p {
+    float: left;
+    margin-left: -250px;
+    margin-top: 390px;
+    font-family: 'Taviraj', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82px;
+    letter-spacing: 0.08em;
+}
+
+.foot-div-teach > div > section {
+    width: 900px;
+    height: 400px;
+    float: right;
+    margin-right: 300px;
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.08em;
+}
+
+.foot-div-teach > div > a > button {
+    width: 400px;
+    height: 60px;
+    float: left;
+    margin-top: -200px;
+    margin-left: 45%;
+    text-align: center;
+    background: #F7DE1F;
+    box-shadow: 3px 4px 4px rgba(189, 169, 14, 0.25);
+    border-radius: 40px;
+}
+
+.foot-div-teach > div > a {
+    text-decoration: none;
+    color: #000000;
+}
 
 
 #button {
@@ -276,13 +317,16 @@ header {
   line-height: 50px;
   color: #fff;
 }
+
 #button:hover {
   cursor: pointer;
   background-color: #333;
 }
+
 #button:active {
   background-color: #555;
 }
+
 #button.show {
   opacity: 1;
   visibility: visible;
@@ -291,7 +335,7 @@ header {
 
 
 footer {
-    margin-top: 700px;
+    margin-top: 50px;
     width: 100%;
     height: 300px;
     float: left;
@@ -299,7 +343,6 @@ footer {
     box-shadow: 2px -2px 4px rgba(189, 169, 14, 0.25);
     border-radius: 40px 40px 0px 0px;
     position: relative;
-    min-height: 100%;
 }
 
 .logo-fut {
@@ -365,3 +408,4 @@ footer > ul > li > a {
 .social-list:hover:after {
 	width: 100%;
 }
+
