@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1" />
     <meta name="viewport" content="height=device-height, initial-scale = 1" />
     <link rel="stylesheet" href="css/home-page.css" />
+    <link rel="stylesheet" href="css/modals-page.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Khula:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@700&display=swap" rel="stylesheet">
@@ -24,9 +25,9 @@
             <nav class="navigation-menu">
                 <a href="course.html" class="nav-a">Курсы</a>
                 <a href="teacher-adults.html" class="nav-a">Преподаватели</a>
-                <a href="#" class="nav-a">Отзывы</a>
-                <a href="#" class="nav-a">Контакты</a>
-                <a href="#" class="a-special">Пробный урок</a>
+                <a href="#">Отзывы</a>
+                <a class="nav-cont">Контакты</a>
+                <a href="#" class="a-special" id="myBtn">Пробный урок</a>
             </nav>
         </div>
     </header>
@@ -39,7 +40,7 @@
         <div>
             <p class="level-course-p">Beginner</p>
 
-            <button class="blocks-course-level-btn">
+            <button class="blocks-course-level-btn" id="myBtn">
                 <p class="blocks-course-level-p">Оставить заявку</p>
             </button>
 
@@ -51,7 +52,7 @@
         <div>
             <p class="level-course-p">Elementary</p>
 
-            <button class="blocks-course-level-btn">
+            <button class="blocks-course-level-btn" id="myBtn">
                 <p class="blocks-course-level-p">Оставить заявку</p>
             </button>
 
@@ -64,7 +65,7 @@
         <div>
             <p class="level-course-p">Intermediate</p>
 
-            <button class="blocks-course-level-btn">
+            <button class="blocks-course-level-btn" id="myBtn">
                 <p class="blocks-course-level-p">Оставить заявку</p>
             </button>
 
@@ -93,7 +94,7 @@
     <div class="prob-lesson-div">
         <p class="prob-lesson">Пробное занятие</p>
 
-        <button class="btn-prob-lesson">
+        <button class="btn-prob-lesson" id="myBtn">
             <p class="p-prob-lesson">Оставить заявку</p>
         </button>
     </div>
@@ -120,7 +121,7 @@
     <div class="prob-lesson-div-body">
         <p class="prob-lesson-body">Пробное занятие</p>
 
-        <button class="btn-prob-lesson-body">
+        <button class="btn-prob-lesson-body" id="myBtn">
             <p class="p-prob-lesson-body">Оставить заявку</p>
         </button>
     </div>
@@ -136,7 +137,7 @@
     <div class="prob-lesson-div-body-speak">
         <p class="prob-lesson-body-speak">Пробное занятие</p>
 
-        <button class="btn-prob-lesson-body-speak">
+        <button class="btn-prob-lesson-body-speak" id="myBtn">
             <p class="p-prob-lesson-body-speak">Оставить заявку</p>
         </button>
     </div>
@@ -149,14 +150,14 @@
         <div class="block-course-adult">
             <p class="block-course-a">Взрослые</p>
 
-            <button class="btn-block-course">
+            <button class="btn-block-course" id="myBtn">
                 <p class="btn-block-course-p">Оставить заявку</p>
             </button>
         </div>
         <div class="block-course-children">
             <p class="block-course-c">Дети</p>
 
-            <button class="btn-block-course">
+            <button class="btn-block-course" id="myBtn">
                 <p class="btn-block-course-p">Оставить заявку</p>
             </button>
         </div>
@@ -191,7 +192,28 @@
         <img src="image/maps.png">
     </div>
 
+
+
+    <div class="myModal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Оставьте заявку на бесплатный пробный урок</p>
+            <div class="form-modal">
+                <p>Ваши данные</p>
+                <form>
+                    <input type="text" placeholder="+375 (__)___-__-__" required>
+                    <input type="text" placeholder="Имя" required>
+                    <input type="email" placeholder="Электронная почта" required>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
     <a id="button"></a>
+
+
 
     <footer>
 
@@ -214,12 +236,13 @@
         <ul>
             <li><a href="#" class="social-list">Стоимость</a></li>
             <li><a href="#" class="social-list">Отзывы</a></li>
-            <li><a href="#" class="social-list">Адреса и телефоны</a></li>
         </ul>
     </footer>
 
 
     <script src="js/buttom-up.js"></script>
+    <script src="js/modals-page.js"></script>
+    <script src="js/yiakor.js"></script>
 </body>
 
 </html>

@@ -1,14 +1,13 @@
-var btn = $("#button");
+let but = $("#button");
 
 $(window).scroll(function () {
     if ($(window).scrollTop() > 300) {
-        btn.addClass("show");
+        but.addClass("show");
     } else {
-        btn.removeClass("show");
+        but.removeClass("show");
     }
 });
-
-btn.on("click", function (e) {
+but.on("click", function (e) {
     e.preventDefault();
     $("html, body").animate({ scrollTop: 0 }, "300");
 });
