@@ -7,7 +7,6 @@ const modal = document.querySelector(".myModal"),
 for (let i = 0; i < btn.length; i++) {
     btn[i].onclick = function () {
         modal.style.display = "block";
-        
     };
 };
 span.addEventListener("click", function () {
@@ -20,3 +19,7 @@ document.onclick = function (event) {
     };
 };
 
+$(this).keydown(function (modal) {
+    if (modal.which == 27)
+        $('.myModal').hide();
+});
