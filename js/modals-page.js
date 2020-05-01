@@ -1,16 +1,22 @@
-let modal = document.querySelector(".myModal");
-let btn = document.querySelector("#myBtn");
-let span = document.getElementsByClassName("close");
+const modal = document.querySelector(".myModal"),
+    btn = document.querySelectorAll("#myBtn"),
+    span = document.getElementsByClassName("close")[0];
 
-btn.onclick = function () {
-    modal.style.display = "block";
+
+
+for (let i = 0; i < btn.length; i++) {
+    btn[i].onclick = function () {
+        modal.style.display = "block";
+        
+    };
 };
-span.onclick = function () {
+span.addEventListener("click", function () {
     modal.style.display = "none";
-};
+});
 
-window.onclick = function (event) {
+document.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     };
 };
+

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1" />
     <meta name="viewport" content="height=device-height, initial-scale = 1" />
     <link rel="stylesheet" href="css/teacher.css" />
+    <link rel="stylesheet" href="css/modals-page.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Khula:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@700&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
                 <a href="teacher-adults.html" class="nav-a">Преподаватели</a>
                 <a href="#" class="nav-a">Отзывы</a>
                 <a href="#" class="nav-a">Контакты</a>
-                <a href="#" class="a-special">Пробный урок</a>
+                <a href="#" class="a-special" id="myBtn">Пробный урок</a>
             </nav>
         </div>
     </header>
@@ -94,11 +95,30 @@
     <div class="prob-les">
         <p>Записаться на бесплатный пробный урок</p>
 
-        <button>
+        <button id="myBtn">
             <p>Оставить заявку</p>
         </button>
 
     </div>
+
+
+
+    <div class="myModal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Оставьте заявку на бесплатный пробный урок</p>
+            <div class="form-modal">
+                <p>Ваши данные</p>
+                <form>
+                    <input type="text" placeholder="+375 (__)___-__-__" required>
+                    <input type="text" placeholder="Имя" required>
+                    <input type="email" placeholder="Электронная почта" required>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
 
     <a id="button"></a>
 
@@ -127,8 +147,10 @@
         </ul>
     </footer>
 
-    <script src="js/buttom-up.js"></script>
 
+
+    <script src="js/buttom-up.js"></script>
+    <script src="js/modals-page.js"></script>
 </body>
 
 </html>

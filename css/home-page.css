@@ -64,7 +64,7 @@ header {
     color: #000000;
 }
 
-.nav-cont:hover {
+nav a:hover {
     cursor: pointer;
 }
 
