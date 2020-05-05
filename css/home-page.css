@@ -1,5 +1,12 @@
 
 body {
+    width: 100%;
+    min-width: 1900px;
+    max-width: 1920px;
+}
+
+
+body {
     background: #e5e5e5;
     padding: 0;
     margin: 0;
@@ -64,7 +71,7 @@ header {
     color: #000000;
 }
 
-nav a:hover {
+nav > a:hover {
     cursor: pointer;
 }
 
@@ -141,6 +148,10 @@ nav a:hover {
 
 .blocks-course-level > div > a {
     text-decoration: none;
+}
+
+.blocks-course-level > div > a > p:hover {
+    color: #F7DE1F;
 }
 
 .blocks-course-level > div > a > p {
@@ -675,4 +686,7 @@ footer > ul > li > a {
 .social-list:hover:after {
 	width: 100%;
 }
+
+
+
 

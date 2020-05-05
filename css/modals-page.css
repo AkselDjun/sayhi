@@ -1,4 +1,8 @@
+
+
 .myModal {
+  min-width: 1900px;
+  max-width: 1920px;
   display: none;
   position: fixed;
   z-index: 1;

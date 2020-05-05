@@ -1,8 +1,12 @@
 
+
 body {
     background: #e5e5e5;
     padding: 0;
     margin: 0;
+    width: 100%;
+    min-width: 1900px;
+    max-width: 1920px;
 }
 
 button, 
@@ -31,7 +35,7 @@ div > a > img {
 }
 
 div > a > img:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 
