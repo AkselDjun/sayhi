@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 10 version
+*/
+
 
 
 body {
@@ -31,11 +38,15 @@ div > p {
 }
 
 div > a > img {
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
 
 div > a > img:hover {
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
 }
 
 
@@ -49,7 +60,8 @@ header {
     width: 987px;
     height: 64px;
     background: rgba(46, 67, 196, 0.12);
-    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.05);
+            box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.05);
     border-radius: 40px;
     margin-top: 25px;
     margin-right: 140px;
@@ -266,6 +278,10 @@ header {
   position: fixed;
   bottom: 30px;
   right: 30px;
+  -webkit-transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  -o-transition: background-color .3s, 
+    opacity .5s, visibility .5s;
   transition: background-color .3s, 
     opacity .5s, visibility .5s;
   opacity: 0;
@@ -302,7 +318,8 @@ footer {
     height: 300px;
     float: left;
     background: rgba(247, 222, 31, 0.6);
-    box-shadow: 2px -2px 4px rgba(189, 169, 14, 0.25);
+    -webkit-box-shadow: 2px -2px 4px rgba(189, 169, 14, 0.25);
+            box-shadow: 2px -2px 4px rgba(189, 169, 14, 0.25);
     border-radius: 40px 40px 0px 0px;
     position: relative;
     min-height: 100%;
@@ -350,11 +367,15 @@ footer > ul > li > a {
 .footer-social-icons > ul > li > a > img {
     width: 80%;
     height: 80%;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
 
 .footer-social-icons > ul > li > a > img:hover {
-    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+            transform: scale(1.15);
 }
 
 .social-list:after {
@@ -365,9 +386,12 @@ footer > ul > li > a {
 	height: 4px; 
 	background-color: #000000; 
 	content: "";
+	-webkit-transition: width 0.4s ease-out;
+	-o-transition: width 0.4s ease-out;
 	transition: width 0.4s ease-out; 
 }
 
 .social-list:hover:after {
 	width: 100%;
 }
+
