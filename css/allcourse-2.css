@@ -1,7 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-}
 
 body {
     width: 100%;
@@ -11,6 +7,8 @@ body {
 
 body {
     background: #e5e5e5;
+    padding: 0;
+    margin: 0;
 }
 
 
