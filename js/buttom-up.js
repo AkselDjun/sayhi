@@ -9,6 +9,6 @@ $(window).scroll(function () {
 });
 but.on("click", function (e) {
     e.preventDefault();
-    $("html, body").animate({ scrollTop: 0 }, 1500);
+    $("html, body").animate({ scrollTop: 0 }, 1200);
 });
 

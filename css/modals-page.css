@@ -1,6 +1,4 @@
 .myModal {
-  min-width: 1900px;
-  max-width: 1920px;
   display: none;
   position: fixed;
   z-index: 1;
@@ -19,8 +17,8 @@
   margin: 10% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 47.5%;
-  height: 61%;
+  width: 900px;
+  height: 580px;
   border-radius: 40px;
 }
 
