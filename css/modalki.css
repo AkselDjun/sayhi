@@ -1,0 +1,131 @@
+
+button:active {
+    outline: none;
+}
+
+
+
+.myModal_2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(23, 34, 99, 0.3);
+}
+
+.modal-content_1 {
+    background: rgba(29, 41, 115, 0.9);
+    -webkit-box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 900px;
+    height: 580px;
+    border-radius: 40px;
+}
+
+.modal-content_1 > button {
+    font-family: "Taviraj", sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+    width: 150px;
+    height: 45px;
+    border-radius: 40px;
+    float: right;
+    background-color: #F7DE1F;
+    color: #1D2973;
+    cursor: pointer;
+    margin-top: 17.5px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.modal-content_1 > p {
+    margin-left: 250px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: "Taviraj", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 80px;
+    letter-spacing: 0.04em;
+    color: #F7DE1F;
+}
+
+.special-p {
+    margin-right: 345px;
+    text-align: center;
+    font-family: "Taviraj", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 80px;
+    letter-spacing: 0.04em;
+    color: #F7DE1F;
+}
+
+.close_1 {
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #aaa;
+    float: right;
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #F7DE1F;
+}
+
+.form-modal_1 {
+    background: rgba(247, 222, 31, 0.85);
+    -webkit-box-shadow: 3px 4px 4px rgba(189, 169, 14, 0.25);
+            box-shadow: 3px 4px 4px rgba(189, 169, 14, 0.25);
+    border-radius: 40px;
+    margin-top: -5%;
+    margin-left: 2%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 92%;
+    height: 75%;
+}
+
+.names {
+    width: 100px;
+    font-family: "Taviraj", sans-serif;
+    margin-top: 7%;
+    margin-left: 30%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    color: #1D2973;
+}
+
+.context {
+    font-family: "Taviraj", sans-serif;
+    margin-top: 10.5%;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #1D2973;
+}
+
+.form-modal_1 > img {
+    margin-top: -150px;
+    float: left;
+    width: 180px;
+    height: 180px;
+    border-radius: 40px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}

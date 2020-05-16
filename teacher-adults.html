@@ -8,6 +8,7 @@
     <meta name="viewport" content="height=device-height, initial-scale = 1" />
     <link rel="stylesheet" href="css/teacher-adults.css" />
     <link rel="stylesheet" href="css/modals-page.css" />
+    <link rel="stylesheet" href="css/modalki.css">
     <link rel="icon" type="image/png" sizes="32x32" href="image/flag.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Khula:wght@600&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
             <nav class="navigation-menu">
                 <a href="course.html" class="nav-a">Курсы</a>
                 <a href="teacher-adults.html" class="nav-a">Преподаватели</a>
-                <a href="#" class="nav-a">Отзывы</a>
+                <a href="#" class="nav-a" id="otziv">Отзывы</a>
                 <a href="index.html#contacts" class="nav-a">Контакты</a>
                 <a href="#" class="a-special" id="myBtn">Пробный урок</a>
             </nav>
@@ -98,6 +99,80 @@
 
 
 
+    <div class="myModal_2" id="modal0">
+        <div class="modal-content_1">
+            <span class="close_1" id="close0">&times;</span>
+            <button id="next">Следующее</button>
+            <p>Отзывы</p>
+            <div class="form-modal_1">
+                <p class="names">Ольга</p>
+                <img src="image/modalki/0619e80d2293282628e0e63298d12e47.jpg">
+                <p class="context">Выбрала школу английского языка Sayhi и
+                    осталась очень
+                    довольна. Замечательные преподаватели, доброжелательная и уютная атмосфера, индивидуальный подход к
+                    каждому, несмотря на
+                    то, что занятия проходят в группе. Также хочу отметить что соотношение цена — качество тут тоже на
+                    высоте. Занимаюсь уже третий месяц и мне очень нравится.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="myModal_2" id="modal1">
+        <div class="modal-content_1">
+            <span class="close_1" id="close1">&times;</span>
+            <button id="next1">Следующее</button>
+            <p>Отзывы</p>
+            <div class="form-modal_1">
+                <p class="names">Елена</p>
+                <img src="image/modalki/a7a64bea150e64414b797d3031e91b1c.jpg">
+                <p class="context">Замечательные преподаватели, доброжелательная и уютная атмосфера, индивидуальный
+                    подход к
+                    каждому, несмотря на
+                    то, что занятия проходят в группе. Также хочу отметить что соотношение цена — качество тут тоже на
+                    высоте , так как за
+                    эту стоимость просто отличный уровень образования. Занимаюсь уже третий месяц и мне очень нравится.
+                    Всем рекомендую
+                    данную школу!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="myModal_2" id="modal2">
+        <div class="modal-content_1">
+            <span class="close_1" id="close2">&times;</span>
+            <button id="next2">Следующее</button>
+            <p>Отзывы</p>
+            <div class="form-modal_1">
+                <p class="names">Дима</p>
+                <img src="image/modalki/b8e8959cd75e46ba4b2d10b7c9228a02.jpg">
+                <p class="context">Школа Sayhi дала мне хорошую возможность, выучить английский язык, в школе я его,
+                    конечно, пытался учить, но одним
+                    словом пытался, просто в детстве как-то не задумывался о значимости иностранных языков при
+                    трудоустройстве. Я занимаюсь уже в Sayhi, группа у нас очень дружная, преподаватель хороший
+                    специалист, и поэтому обучение проходить легко и
+                    продуктивно.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="myModal_2" id="modal3">
+        <div class="modal-content_1">
+            <span class="close_1" id="close3">&times;</span>
+            <p class="special-p">Отзывы</p>
+            <div class="form-modal_1">
+                <p class="names">Влад</p>
+                <img src="image/modalki/0c1a6ab5d0cedf332aebe68c8b4f313f.jpg">
+                <p class="context">Благодарю Школу английского языка за интересное обучение. Хорошее отношение
+                    преподавателей и взаимопонимание. Хочу
+                    отметить, что спустя пару месяцев английского стал понимать лучше разговорную речь т.к. постоянно
+                    происходит процесс
+                    общения и с преподавателем и с другими однокурсниками, а также стал замечать свои ошибки. Уютная
+                    атмосфера.</p>
+            </div>
+        </div>
+    </div>
+
+
 
     <a id="button"></a>
 
@@ -121,11 +196,13 @@
 
         <ul>
             <li><a href="#" class="social-list">Стоимость</a></li>
-            <li><a href="#" class="social-list">Отзывы</a></li>
+            <li><a href="#" class="social-list" id="otziv1">Отзывы</a></li>
             <li><a href="index.html#contacts" class="social-list">Адреса и телефоны</a></li>
         </ul>
     </footer>
 
+
+    <script src="js/modalka-otziv.js"></script>
     <script src="js/buttom-up.js"></script>
     <script src="js/modals-page.js"></script>
 </body>
