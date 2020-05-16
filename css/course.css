@@ -25,7 +25,7 @@ header {
 
 .inner-width {
     float: right;
-    width: 987px;
+    width: 950px;
     height: 64px;
     background: rgba(46, 67, 196, 0.12);
     -webkit-box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.05);
@@ -50,32 +50,33 @@ header {
 }
 
 .navigation-menu{
-    display: inline-block;
-    margin: 14.5px;
+    
+    margin: 13.5px;
+    margin-left: 15px;
 }
 
 .navigation-menu a{
-    position: relative;
-    padding-top: 22px;
-    padding-bottom: 18px;
-    padding-left: 27px;
-    padding-right: 23px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
     text-decoration: none;
     font-family: 'Khula', sans-serif;
-    font-style: normal;
     font-size: 22px;
     line-height: 40px;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.06em;
     color: #000000;
 }
 
 
 
 .header-text {
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    margin-top: 230px;
+    width: 1100px;
+    height: 100px;
+    padding-top: 230px;
+    margin-left: 21.5%;
+    position: inherit;
+    top: -50%;
     font-family: "Anton", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -93,7 +94,7 @@ header {
     position: absolute;
     text-align: center;
     float: left;
-    margin-top: 520px;
+    margin-top: 230px;
     margin-left: 150px;
     background: rgba(29, 41, 115, 0.85);
     border-radius: 40px;
@@ -155,7 +156,7 @@ header {
     position: absolute;
     text-align: center;
     float: left;
-    margin-top: 920px;
+    margin-top: 650px;
     margin-left: 1010px;
     background: #F7DE1F;
     border-radius: 40px;
@@ -217,7 +218,7 @@ header {
     position: absolute;
     text-align: center;
     float: left;
-    margin-top: 1320px;
+    margin-top: 1080px;
     margin-left: 150px;
     background: rgba(29, 41, 115, 0.85);
     border-radius: 40px;
@@ -281,7 +282,7 @@ header {
     position: absolute;
     text-align: center;
     float: left;
-    margin-top: 1720px;
+    margin-top: 1510px;
     margin-left: 1010px;
     background: #F7DE1F;
     border-radius: 40px;
@@ -343,7 +344,7 @@ header {
     position: absolute;
     text-align: center;
     float: left;
-    margin-top: 2120px;
+    margin-top: 1930px;
     margin-left: 150px;
     background: rgba(29, 41, 115, 0.85);
     border-radius: 40px;
@@ -449,7 +450,7 @@ header {
 
 
 footer {
-    margin-top: 2550px;
+    margin-top: 2450px;
     width: 100%;
     height: 300px;
     float: left;

@@ -1,4 +1,4 @@
-const modal = document.querySelector(".myModal"),
+let modalPage = document.querySelector(".myModal"),
     btn = document.querySelectorAll("#myBtn"),
     span = document.getElementsByClassName("close")[0];
 
@@ -6,20 +6,20 @@ const modal = document.querySelector(".myModal"),
 
 for (let i = 0; i < btn.length; i++) {
     btn[i].onclick = function () {
-        modal.style.display = "block";
+        modalPage.style.display = "block";
     };
 };
 span.addEventListener("click", function () {
-    modal.style.display = "none";
+    modalPage.style.display = "none";
 });
 
 document.onclick = function (event) {
     if (event.target == modal) {
-        modal.style.display = "none";
+        modalPage.style.display = "none";
     };
 };
 
-$(this).keydown(function (modal) {
-    if (modal.which == 27)
+$(this).keydown(function (modalPage) {
+    if (modalPage.which == 27)
         $('.myModal').hide();
 });

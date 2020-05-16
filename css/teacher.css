@@ -33,7 +33,7 @@ header {
 
 .inner-width {
     float: right;
-    width: 987px;
+    width: 950px;
     height: 64px;
     background: rgba(46, 67, 196, 0.12);
     -webkit-box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.05);
@@ -58,22 +58,21 @@ header {
 }
 
 .navigation-menu{
-    display: inline-block;
-    margin: 14.5px;
+    
+    margin: 13.5px;
+    margin-left: 15px;
 }
 
 .navigation-menu a{
-    position: relative;
-    padding-top: 22px;
-    padding-bottom: 18px;
-    padding-left: 27px;
-    padding-right: 23px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
     text-decoration: none;
     font-family: 'Khula', sans-serif;
-    font-style: normal;
     font-size: 22px;
     line-height: 40px;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.06em;
     color: #000000;
 }
 
