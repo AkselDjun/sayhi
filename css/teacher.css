@@ -16,8 +16,8 @@ button:focus {
 
 
 .kate-img > img {
-    width: 95%;
-    height: 95%;
+    width: 550px;
+    height: 550px;
 }
 
 .photo > img {
@@ -79,11 +79,12 @@ header {
 
 
  .header-text {
-    position: absolute;
-    width: 100%;
+    position: relative;
+    float: left;
+    width: 300px;
     height: 150px;
-    margin-top: 115px;
-    margin-left: 15.5%;
+    padding-top: 35px;
+    margin-left: 35.5%;
 }
 
 .header-text > p {
@@ -100,18 +101,20 @@ header {
 
 .kate-img {
     position: absolute;
-    margin-top: 320px;
-    margin-left: 18%;
+    float: left;
+    margin-top: 270px;
+    margin-left: 270px;
     
 } 
 
 
 .obs-course {
-    position: absolute;
+    position: relative;
+    float: right;
     width: 500px;
     height: 100px;
-    margin-top: 20%;
-    margin-left: 51%;
+    margin-top: 5%;
+    margin-right: 16%;
 }
 
 .obs-course > p {
@@ -126,9 +129,10 @@ header {
 
 
 .list-course {
-        position: absolute;
-        margin-top: 30%;
-        margin-left: 51%;
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-left: 57%;
 }
 
 .list-course > ul > li {
@@ -143,11 +147,11 @@ header {
 
 
 .secti {
-    width: 1100px;
-    height: 400px;
-    position: absolute;
-    margin-left: 18%;
-    margin-top: 50%;
+    position: relative;
+    float: left;
+    width: 1400px;
+    margin-top: 13%;
+    margin-left: 15%;
 }
 
 .secti > section {
@@ -163,11 +167,10 @@ header {
 
 
 .other-teach {
-    width: 1100px;
-    height: 400px;
-    position: absolute;
-    margin-left: 18%;
-    margin-top: 70%;
+    position: relative;
+    float: left;
+    margin-top: 7%;
+    margin-left: 13%;
 }
 
 .other-teach > section {
@@ -179,11 +182,16 @@ header {
     letter-spacing: 0.08em;
 }
 
+.photo-block {
+    position: relative;
+    float: left;
+    margin-top: 7%;
+    margin-left: 185px;
+}
 
 .photo {
-    float: left;
-    margin-top: 76%;
-    margin-left: -2.4%;
+    display: inline-block;
+    margin: 10px;
 }
 
 .photo > img {
@@ -193,7 +201,7 @@ header {
 .photo > p {
     position: absolute;
     margin-left: 210px;
-    margin-top: -6.5%;
+    margin-top: -7.5%;
     font-family: "Anton", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -207,10 +215,10 @@ header {
 .prob-les {
     width: 900px;
     height: 350px;
-    position: absolute;
+    position: relative;
     text-align: center;
     float: left;
-    margin-top: 1900px;
+    margin-top: 180px;
     margin-left: 26.9%;
     background: rgba(29, 41, 115, 0.85);
     border-radius: 40px;
@@ -297,7 +305,7 @@ header {
 
 
 footer {
-    margin-top: 700px;
+    margin-top: 180px;
     width: 100%;
     height: 300px;
     float: left;
@@ -306,14 +314,13 @@ footer {
             box-shadow: 2px -2px 4px rgba(189, 169, 14, 0.25);
     border-radius: 40px 40px 0px 0px;
     position: relative;
-    min-height: 100%;
 }
 
 .logo-fut {
     height: 125px;
     width: 236px;
     padding-left: 150px;
-    padding-top: 90px;
+    margin-top: 90px;
 }
 
 footer > ul {

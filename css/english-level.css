@@ -175,10 +175,11 @@ header {
 
 
 .add-text {
-    width: 700px;
+    width: 550px;
     position: absolute;
-    margin-left: 57.5%;
-    margin-top: 1805px;
+    float: left;
+    margin-left: 1100px;
+    margin-top: 1850px;
 }
 
 .add-text > p {
